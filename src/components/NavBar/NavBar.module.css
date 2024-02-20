@@ -1,0 +1,27 @@
+.nav {
+    display: flex;
+    gap: 8px;
+  }
+
+  .list {
+    display: flex;
+    gap: 8px;
+  }
+
+  .listItem {
+    font-size: 22px;
+  }
+  
+  .link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    color: white;
+    transition: color 300ms cubic-bezier(0.3, 0.1, 0.2, 0.3);
+  }
+  
+  .active {
+    color: orange;
+  }

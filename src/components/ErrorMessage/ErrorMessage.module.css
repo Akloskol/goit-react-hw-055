@@ -1,0 +1,20 @@
+.textError {
+    padding-top: 60px;
+    
+    padding-bottom: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    color: teal;
+}
+
+.iconError {
+    fill:teal;
+}
+
+.block_textError {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+}
